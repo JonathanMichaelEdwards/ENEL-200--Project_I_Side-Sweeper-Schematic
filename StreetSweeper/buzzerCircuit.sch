@@ -1,0 +1,335 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:2xx_ence_uc
+LIBS:StreetSweeper-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2N3904 Q?
+U 1 1 5D5431B6
+P 2900 4350
+F 0 "Q?" H 3100 4425 50  0000 L CNN
+F 1 "2N3904" H 3100 4350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3100 4275 50  0001 L CIN
+F 3 "" H 2900 4350 50  0001 L CNN
+	1    2900 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q?
+U 1 1 5D5431BD
+P 4100 4350
+F 0 "Q?" H 4300 4425 50  0000 L CNN
+F 1 "2N3904" H 4300 4350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4300 4275 50  0001 L CIN
+F 3 "" H 4100 4350 50  0001 L CNN
+	1    4100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L UC_R R?
+U 1 1 5D543A26
+P 2800 3500
+F 0 "R?" V 2725 3495 50  0000 C CNN
+F 1 "UC_R" V 2805 3500 40  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2800 3250 60  0001 C CNN
+F 3 "" H 2800 3500 60  0000 C CNN
+	1    2800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UC_R R?
+U 1 1 5D543B03
+P 3200 3500
+F 0 "R?" V 3125 3495 50  0000 C CNN
+F 1 "UC_R" V 3205 3500 40  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 3200 3250 60  0001 C CNN
+F 3 "" H 3200 3500 60  0000 C CNN
+	1    3200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UC_R R?
+U 1 1 5D543B56
+P 3800 3500
+F 0 "R?" V 3725 3495 50  0000 C CNN
+F 1 "UC_R" V 3805 3500 40  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 3800 3250 60  0001 C CNN
+F 3 "" H 3800 3500 60  0000 C CNN
+	1    3800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UC_R R?
+U 1 1 5D543BDE
+P 4200 3500
+F 0 "R?" V 4125 3495 50  0000 C CNN
+F 1 "UC_R" V 4205 3500 40  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4200 3250 60  0001 C CNN
+F 3 "" H 4200 3500 60  0000 C CNN
+	1    4200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5D543C59
+P 3000 3800
+F 0 "C?" H 3025 3900 50  0000 L CNN
+F 1 "CP1" H 3025 3700 50  0000 L CNN
+F 2 "" H 3000 3800 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5D543D16
+P 4000 3800
+F 0 "C?" H 4025 3900 50  0000 L CNN
+F 1 "CP1" H 4025 3700 50  0000 L CNN
+F 2 "" H 4000 3800 50  0001 C CNN
+F 3 "" H 4000 3800 50  0001 C CNN
+	1    4000 3800
+	0    1    1    0   
+$EndComp
+Text GLabel 1950 3250 0    79   Input ~ 0
+VCC
+Wire Wire Line
+	1950 3250 4200 3250
+Wire Wire Line
+	2800 3650 2800 4150
+Wire Wire Line
+	2850 3800 2800 3800
+Connection ~ 2800 3800
+Wire Wire Line
+	3200 3650 3200 4000
+Wire Wire Line
+	3200 3800 3150 3800
+Wire Wire Line
+	3800 3650 3800 3800
+Wire Wire Line
+	3400 3800 3850 3800
+Wire Wire Line
+	4200 3650 4200 4150
+Wire Wire Line
+	4150 3800 4700 3800
+Connection ~ 4200 3800
+Wire Wire Line
+	4200 4600 4200 4550
+Wire Wire Line
+	1950 4600 4200 4600
+Wire Wire Line
+	2800 4550 2800 4600
+Connection ~ 2800 4600
+Wire Wire Line
+	4200 3250 4200 3350
+Wire Wire Line
+	3800 3350 3800 3250
+Connection ~ 3800 3250
+Wire Wire Line
+	3200 3350 3200 3250
+Connection ~ 3200 3250
+Wire Wire Line
+	2800 3350 2800 3250
+Connection ~ 2800 3250
+Wire Wire Line
+	3100 4350 3400 4350
+Wire Wire Line
+	3400 4350 3400 3800
+Connection ~ 3800 3800
+Wire Wire Line
+	3900 4350 3700 4350
+Wire Wire Line
+	3700 4350 3700 4000
+Wire Wire Line
+	3700 4000 3200 4000
+Connection ~ 3200 3800
+Text GLabel 1950 4600 0    79   Input ~ 0
+GND
+Text HLabel 5300 1700 2    59   Input ~ 0
+Pin7
+$Comp
+L UC_Q_NMOS Q?
+U 1 1 5D54EFFA
+P 5300 3150
+F 0 "Q?" V 5500 3200 50  0000 L CNN
+F 1 "UC_Q_NMOS" V 5600 2900 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide_Oval" H 5300 2900 50  0001 C CNN
+F 3 "" H 5300 3150 50  0001 C CNN
+	1    5300 3150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5100 3250 4700 3250
+Wire Wire Line
+	4700 3250 4700 3800
+$Comp
+L LED D?
+U 1 1 5D550229
+P 4900 2750
+F 0 "D?" H 4900 2850 50  0000 C CNN
+F 1 "LED" H 4900 2650 50  0000 C CNN
+F 2 "" H 4900 2750 50  0001 C CNN
+F 3 "" H 4900 2750 50  0001 C CNN
+	1    4900 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UC_R R?
+U 1 1 5D55042C
+P 4900 2350
+F 0 "R?" V 4825 2345 50  0000 C CNN
+F 1 "UC_R" V 4905 2350 40  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 2100 60  0001 C CNN
+F 3 "" H 4900 2350 60  0000 C CNN
+	1    4900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1700 5300 2950
+Wire Wire Line
+	4900 2200 5300 2200
+Connection ~ 5300 2200
+Wire Wire Line
+	4900 2600 4900 2500
+$Comp
+L GND #PWR?
+U 1 1 5D554690
+P 4900 2950
+F 0 "#PWR?" H 4900 2700 50  0001 C CNN
+F 1 "GND" H 4900 2800 50  0000 C CNN
+F 2 "" H 4900 2950 50  0001 C CNN
+F 3 "" H 4900 2950 50  0001 C CNN
+	1    4900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2900 4900 2950
+$Comp
+L UC_LMC6462 U?
+U 1 1 5D557A7E
+P 7150 3550
+F 0 "U?" H 7150 3800 50  0000 L CNN
+F 1 "UC_LMC6462" H 7150 3700 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 7150 3200 50  0001 C CNN
+F 3 "" H 7150 3550 50  0001 C CNN
+	1    7150 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L UC_D_SCHOTTKY D?
+U 1 1 5D557B01
+P 7700 3000
+F 0 "D?" H 7700 3100 50  0000 C CNN
+F 1 "UC_D_SCHOTTKY" H 7700 2900 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 7700 2800 60  0001 C CNN
+F 3 "" H 7700 3000 60  0000 C CNN
+	1    7700 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UC_D_SCHOTTKY D?
+U 1 1 5D557B75
+P 7700 4050
+F 0 "D?" H 7700 4150 50  0000 C CNN
+F 1 "UC_D_SCHOTTKY" H 7700 3950 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 7700 3850 60  0001 C CNN
+F 3 "" H 7700 4050 60  0000 C CNN
+	1    7700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L UC_CONN_01X02 J?
+U 1 1 5D557C46
+P 6250 2700
+F 0 "J?" H 6250 2850 50  0000 C CNN
+F 1 "Battery" V 6350 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6250 2550 50  0001 C CNN
+F 3 "" H 6250 2700 50  0001 C CNN
+	1    6250 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 3000 7550 3000
+Wire Wire Line
+	7050 3000 7050 3250
+Wire Wire Line
+	6200 4050 7550 4050
+Wire Wire Line
+	7050 4050 7050 3850
+Wire Wire Line
+	6300 2900 6300 3000
+Connection ~ 7050 3000
+Wire Wire Line
+	6200 2900 6200 4050
+Connection ~ 7050 4050
+Wire Wire Line
+	5500 3250 6500 3250
+Wire Wire Line
+	6500 3250 6500 3450
+Wire Wire Line
+	6500 3450 6850 3450
+$Comp
+L GND #PWR?
+U 1 1 5D5586A8
+P 6750 3800
+F 0 "#PWR?" H 6750 3550 50  0001 C CNN
+F 1 "GND" H 6750 3650 50  0000 C CNN
+F 2 "" H 6750 3800 50  0001 C CNN
+F 3 "" H 6750 3800 50  0001 C CNN
+	1    6750 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3650 6750 3650
+Wire Wire Line
+	6750 3650 6750 3800
+Text GLabel 8100 3000 2    59   Input ~ 0
+VCC_2
+Text GLabel 8100 4050 2    59   Input ~ 0
+GND_2
+Wire Wire Line
+	7850 3000 8100 3000
+Wire Wire Line
+	7850 4050 8100 4050
+$EndSCHEMATC
